@@ -1,45 +1,43 @@
-# Réseaux (Networking)
+# Networking Basics
 
-## Objectifs d'apprentissage
+Ce projet est une introduction aux concepts fondamentaux des réseaux informatiques, divisé en deux parties.
 
-À la fin de ce projet, vous devriez être capable d'expliquer à n'importe qui, sans l'aide de Google :
+## Description générale
 
-### Modèle OSI
-* Ce que c'est
-* Combien de couches il possède
-* Comment il est organisé
+### Partie 1 : Concepts de base (basics_0)
+Introduction aux concepts fondamentaux :
+* Modèle OSI
+* Types de réseaux (LAN/WAN)
+* Protocoles (TCP/UDP)
+* Adressage (IP/MAC)
 
-### LAN (Réseau Local)
-* Usage typique
-* Taille géographique typique
+### Partie 2 : Configuration réseau (basics_1)
+Exercices pratiques de configuration :
+* Manipulation des résolutions DNS locales
+* Gestion des interfaces réseau
+* Configuration des ports d'écoute
 
-### WAN (Réseau Étendu)
-* Usage typique
-* Taille géographique typique
+## Structure du projet
 
-### Internet
-* Ce que c'est
-* Qu'est-ce qu'une adresse IP
-* Les 2 types d'adresses IP
-* Qu'est-ce que localhost
-* Qu'est-ce qu'un sous-réseau
-* Pourquoi IPv6 a été créé
+```
+.
+├── basics_0/
+│   ├── 0-OSI_model
+│   ├── 1-types_of_network
+│   ├── 2-MAC_and_IP_address
+│   ├── 3-UDP_and_TCP
+│   ├── 4-TCP_and_UDP_ports
+│   └── 5-is_the_host_on_the_network
+└── basics_1/
+    ├── 0-change_your_home_IP
+    ├── 1-show_attached_IPs
+    └── 2-port_listening_on_localhost
+```
 
-### TCP/UDP
-* Les 2 principaux protocoles de transfert de données pour IP (niveau transport du modèle OSI)
-* La principale différence entre TCP et UDP
-* Qu'est-ce qu'un port
-* Les numéros de ports SSH, HTTP et HTTPS
-* Quel outil/protocole est souvent utilisé pour vérifier si un appareil est connecté à un réseau
+## Technologies
+* Scripts Bash
+* Ubuntu 22.04 LTS
+* Shellcheck v0.7.0
 
-## Configuration requise
-
-### Scripts Bash
-* Éditeurs autorisés : vi, vim, emacs
-* Tous les scripts seront interprétés sur Ubuntu 22.04 LTS
-* Tous les fichiers doivent se terminer par une nouvelle ligne
-* Un fichier README.md à la racine du dossier du projet est obligatoire
-* Tous les scripts Bash doivent être exécutables
-* Les scripts Bash doivent passer shellcheck sans erreur
-* La première ligne de tous les scripts Bash doit être exactement `#!/usr/bin/env bash`
-* La deuxième ligne de tous les scripts Bash doit être un commentaire expliquant ce que fait le script
+## Auteur
+Ibrahim HOUMAIDI
